@@ -9,9 +9,9 @@ import sys
 # Complete the hurdleRace function below.
 def hurdleRace(k, height):
     max_val = max(height)
-    if max_val <= k:
+    if max_value <= k:
         return 0
-    return max_val - k
+    return max_value - k
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')

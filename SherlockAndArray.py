@@ -14,6 +14,7 @@ def balancedSums(arr):
         if add == (total - item - add):
             return "YES"
         add += item
+        
     return "NO"
 
 
